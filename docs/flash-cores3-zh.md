@@ -46,7 +46,7 @@ idf.py build
 构建完成后检查 `build/flasher_args.json`；它是当前构建生成的烧录清单。本仓库 CoreS3 的 16 MB 分区方案需要以下六个镜像：
 
 | 地址 | 构建输出 | 用途 |
-|---|---|
+| --- | --- | --- |
 | `0x0` | `build/bootloader/bootloader.bin` | 启动程序 |
 | `0x8000` | `build/partition_table/partition-table.bin` | 分区表 |
 | `0xD000` | `build/ota_data_initial.bin` | OTA 初始状态 |
